@@ -6,14 +6,14 @@
 	"plugins": ["edit-link","disqus","ga"],
 	"pluginsConfig": {
 		"edit-link": {
-			"base": "https://github.com/MatthijsKamstra/haxejs/blob/master/",
+			"base": "https://github.com/MatthijsKamstra/haxejava/blob/master/",
 			"label": ""
 		},
 		"disqus": {
-			"shortName": "haxeandjavascript"
+			"shortName": "haxeandjava"
 		},
 		"ga": {
-			"token": "UA-67866831-1"
+			"token": "UA-67866831-4"
 		}
 	}
 }
