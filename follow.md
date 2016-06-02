@@ -1,10 +1,10 @@
 #Who to follow
 
 The Haxe community is a pleasant one.
-So if you have questions, just got the [google haxe group](https://groups.google.com/forum/#!topic/haxelang/) and ask it.
+If you have questions, just got the [google haxe group](https://groups.google.com/forum/#!topic/haxelang/) and ask it.
 
-You can also be non verbal and just follow Haxe people on Twitter for example
-I have compiled a list of Haxe peeps with there speciality 
+You can also be non verbal and just follow Haxe people on Twitter for example.
+I have compiled a list of Haxe peeps with there specialty 
 
 
 ##Haxe in general
@@ -54,13 +54,14 @@ fixme
 | Name | Github | Twitter | Facebook | LinkedIn | Blog | 
 |-------|------|-----------|---- | -------------|-------|
 | Hugh Sanderson | [hughsando](https://github.com/hughsando) | [gamehaxe](https://twitter.com/gamehaxe) |  |  | [http://gamehaxe.com/](http://gamehaxe.com/) | 
+| Joshua Granick | [jgranick](https://github.com/jgranick) | [singmajesty](https://twitter.com/singmajesty) |  | [joshuagranick](https://www.linkedin.com/in/joshuagranick) | [http://www.joshuagranick.com/](http://www.joshuagranick.com/) | 
 
 
 fixme
 
 ##AS3
 
-Sadly this is a dying art, but its still used as a quick Haxe target to test and build games in.
+ActionScript is a dying art, but its still used as a quick Haxe target to test and build games in.
 You still see it a lot with Lodum Dare
 
 | Name | Github | Twitter | Facebook | LinkedIn | Blog | 

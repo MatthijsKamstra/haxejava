@@ -7,41 +7,34 @@ _or perhaps better_
 #Contribute!
 
 I wanted to make contributing to this documentation as easy as possible.  
-That's why I use [Markdown](http://daringfireball.net/projects/markdown/); developers use it, but is really just plane English so **everybody** can write documentation!  
+That's why I use Markdown. Developers use it, but is just writing in plane English so **everybody** can write documentation!  
+And this documentation hosted on Github, developers favorite place to store code.  
+Even if you are not a developer. Don't want to clone everything, you still can change the files on the website (you need account to login in and change the `.md` files).
+And as a final resort, you can leave your comments/suggestions/etc at the bottom of the page via Disqus.
 
-Most of the developers have an account on Github: and this documentation is hosted on Github, developers favorite place to store code.  
-If you are not a developer and/or don't want to clone everything, you still can modify the files on the website (you only need an account to login in and change the `.md` files).
-Even if you don't have a Github account, just drop a comment at the bottom of the page.
 
+##### Visit [https://github.com/MatthijsKamstra/haxejava](https://github.com/MatthijsKamstra/haxejava) to change the "source" aka markdown files.
 
-##### Visit [https://github.com/MatthijsKamstra/haxejs](https://github.com/MatthijsKamstra/haxejs) to modify the "source" aka markdown files.
-
-Found any "bug" or have a great idea? Please create a [new issue](https://github.com/MatthijsKamstra/haxejs/issues/new).
+Found any "bug" or have a great idea? Please create a [new issue](https://github.com/MatthijsKamstra/haxejava/issues/new).
 
 
 ## Why?
 
-> Why start another place for Haxe and JavaScript documentation?
+> Why start another place for Haxe and java documentation?
 
-There are a couple places you can go for "how to start with ...":   
+The current documentation
 
-1. [http://haxe.org/manual/target-javascript.html](http://haxe.org/manual/target-javascript.html) 
-2. [http://www.haxejs.com/](http://www.haxejs.com/)
-3. different blog posts from individual developers
-
-And they are good.... but:
-
-1. very basic, one example, quickly in-depth
+1. hello world
 2. difficult to contribute (ownership)
-3. all over the place
+3. almost none
 
 **So what can be improved:**
 
 1. Add more simple, easy to start with examples
-	* simple how to start with Haxe
-	* simple and basic code examples
-	* how to use jQuery (no JavaScript without jQuery)
-	* move slowly to more difficult examples
+	* Simple how to start with Haxe
+	* Simple and basic code examples
+	* How to use jQuery (no JavaScript without jQuery)
+	* Move to more difficult examples
 	* I don't mind copy/paste examples (see point 3, but with permission of the writer if its done in a post) 
 2. Make contributing as-easy-as-possible
 	* I hope Markdown will help with the writing
@@ -69,17 +62,16 @@ Every new tutorial should have:
 
 ```
 
-
 ## Open-sourcing the documentation
 
-I thought I was the first to try to write documentation this way, but others beat me.  
-Although my idea was formed by writing a book in Markdown (Gitbook, but there are others).
-Writing documentation is very similar to writing a book.
+I thought I was the first to try to write documentation and open-sourcing it this way, but other beat me.  
+Although I was already writing everything with markdown, it looked like a good idea to use Gitbook to "publish" it. Writing documentation is like writing a book.
 
 **Other clever developers who had this idea before me:**  
 
 * [babylon js open sourcing the documentation](http://blogs.msdn.com/b/eternalcoding/archive/2015/08/11/babylon-js-open-sourcing-the-documentation.aspx)
 * [building markdown based developer docs](https://medium.com/code-stories/building-markdown-based-developer-docs-87c0317c56f7)
+
 
 
 ## I want to be positive, but internet says differently...

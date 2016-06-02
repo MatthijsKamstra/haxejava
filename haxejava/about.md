@@ -1,40 +1,52 @@
-# About haxejs (Haxe and Javascript)
+# About haxejava (Haxe and Java)
 
-![Haxe logo](../img/haxe_javascript_logos.png)
+![Haxe logo](../img/haxe_java_logos.png)
 
-Javascript is **one** of the targets you can use when you work with [Haxe](http://haxe.org/).
-And JavaScript is becoming one of the most powerful and [popular](https://github.com/blog/2047-language-trends-on-github) languages you can learn.
+One of the earlier targets added to the Haxe compiler is Java.
+It was create by Franco Ponticelli and added to the Haxe compiler in 2008.
 
-![](https://cloud.githubusercontent.com/assets/2623954/9098640/f15e22b4-3b7f-11e5-9496-12b6d811f0ea.jpg)
+## What is Java?
 
-So you would say the (Haxe) documentation about the JavaScript target would we very big.
+> Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,[14] and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA),[15] meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.[16] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture.
 
-**Well, you guessed it, it's not.**   
-The information you can find is scattered across the web on blogs, forums, tweets, etc.
-
-
-![](http://www.reactiongifs.com/r/do.gif)
-
-I can bitch about it, or do something about it... I choose the second.
-
-----
-
-There used to be a website (really old, when Haxe was spelled "haXe") that got you started.
-
-But that is no more. So I decided to get some of that back.
-
----
-
-I started with the information from the old site. A simple copy, paste. Most of the content of this site/book is from different sources (with permission of the writers). Eventually (that means in the future) I will rewrite it (or not).
- 
-The JavaScript documentation was not really what I wanted to document; I started with [HaxeNode](http://matthijskamstra.github.io/haxenode/).  
-**But what is node.js without JavaScript!**
-
-The rewrite will focus on getting the old information/tutorials updated to current use of Haxe and Javascript.  
-*And more motivational gif :D !*
+Source: [wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
 
 
-----
+## Spares information about PHP on Haxe.org
+<http://haxe.org/manual/target-php-getting-started.html>
 
-The original data is found with [WayBack Machine](https://web.archive.org/web/20130917142452/http://www.haxejs.org/externs) 
 
+## Convert PHP to Haxe
+
+PhpToHaxe - tool for helping use PHP from Haxe
+
+<http://phptohaxe.haqteam.com/code.php>
+
+
+## Neko?
+
+In the source you will see this `conditional compiler` statement
+
+```
+#if php
+import php.Lib;
+import php.Web;
+#elseif neko
+import neko.Lib;
+import neko.Web;
+#end
+```
+
+### What is that `neko`?
+
+> Neko is a high-level dynamically typed programming language.
+
+Note that the `php` package tries to mimic as far as possible the `neko` one. This allows for easy switching between the two platforms
+
+[neko api](http://api.haxe.org/neko/)
+
+## An Introduction to Mod_neko
+
+`Mod_neko` is an Apache module for Neko. This means it's possible to run Neko programs on the server side to serve web-pages using Apache. Here's a step-by-step tutorial on how to configure and use Mod_neko.
+
+Read more [Mod_neko](http://nekovm.org/doc/mod_neko).

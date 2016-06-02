@@ -1,6 +1,6 @@
-# JavaScript Reloaded
+# PHP Reloaded
 
-**Haxe JS** is similar to JavaScript, but includes new features like:
+**Haxe PHP** is like PHP, but includes new features like:
 
 * [Strong Typing](http://Haxe.org/manual/types.html) 
 * [Inlining](http://Haxe.org/manual/class-field-inline.html) 
@@ -15,15 +15,6 @@
 * [Iterators](http://haxe.org/manual/lf-iterators.html) 
 
 
-## Cross-Browser Compliant
-
-**Haxe JS** works with current browsers—even Internet Explorer!
-
-
-## Small Footprint
-
-**Haxe JS** relies on a small 8KB (3KB zipped) standard library and only includes the classes you use in your project.
-
 
 ## Familiar Syntax
 
@@ -32,7 +23,7 @@ New languages like CoffeeScript, TypeScript and Dart throw out familiar syntax f
 
 ## Code Completion
 
-Ever wanted a code editor that can help think for you? **Haxe JS** supports automatic code completion. Even when you do not type your variables, **Haxe JS** applies type inference to provide fast and accurate feedback on every API.
+Ever wanted a code editor that can help think for you? **Haxe PHP** supports automatic code completion. Even when you do not type your variables, **Haxe PHP** applies type inference to provide fast and accurate feedback on every API.
 
 
 ## Find Errors Fast
@@ -42,16 +33,16 @@ Through code completion, you can receive instant feedback to help prevent errors
 
 ## Include Regular JavaScript
 
-You do not need to change everything from JavaScript to **Haxe JS**: they can work together. You can reference JavaScript `untyped`, or have `extern` classes to provide code completion for JavaScript written outside of **Haxe JS**.
+You do not need to change everything from JavaScript to **Haxe PHP**: they can work together. You can reference JavaScript `untyped`, or have `extern` classes to provide code completion for JavaScript written outside of **Haxe PHP**.
 
 
 ## Free and Open Source
 
-**Haxe JS** is free, and most of the libraries are MIT- or BSD-licensed. You can build non-profit or commercial projects without being encumbered by restrictive licenses, no attribution required.
+**Haxe PHP** is free, and most of the libraries are MIT- or BSD-licensed. You can build non-profit or commercial projects without being encumbered by restrictive licenses, no attribution required.
 
 
 ## Use Popular Frameworks
 
-Using externs, **Haxe JS** supports [jQuery](http://lib.haxe.org/p/jQueryExtern/).
-And even more libraries through [`Haxelib`](http://lib.haxe.org/), like [pixi.js](http://lib.haxe.org/p/pixijs/), [Create.js](http://lib.haxe.org/p/createjs/), [Node.js](http://lib.haxe.org/p/nodejs/), [howler.js](http://lib.haxe.org/p/howlerjs/) or [three.js](http://lib.haxe.org/p/threejs/).
+Using externs, **Haxe PHP** supports xxx.
+And even more libraries through [`Haxelib`](http://lib.haxe.org/).
 
