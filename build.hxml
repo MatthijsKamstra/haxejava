@@ -2,77 +2,43 @@
 
 
 # extremly simple hello world
--cmd cd haxe/code/
---next
-compile.hxml
--cmd echo "│ ├── haxe/code"
+-cmd haxe -cp 00helloworld/code/src -main Main -python 00helloworld/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 00helloworld/code"
 
 
-# hello world
--cmd cd ../../
--cmd cd 00helloworld/code/
---next 
-javascript.hxml
--cmd echo "│ ├── helloworld/code"
+# 01writing
+-cmd haxe -cp 01writing/code/src -main Main -python 01writing/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 01writing/code"
+
+# 02reading
+-cmd haxe -cp 02reading/code/src -main Main -python 02reading/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 02reading/code"
+
+# 04haxelow
+-cmd haxe -cp 04haxelow/code/src -main Main -python 04haxelow/code/bin/example.py -dce full -debug -lib haxelow
+-cmd echo "│ ├── 04haxelow/code"
+
+# 06nasa
+-cmd haxe -cp 06nasa/code/src -main Main -python 06nasa/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 06nasa/code"
 
 
-# jquery example
--cmd cd ../../
--cmd cd 01jquery/code/
---next 
-javascript.hxml
--cmd echo "│ ├── jquery/code"
+# 08json
+-cmd haxe -cp 08json/code/src -main Main -python 08json/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 08json/code"
 
 
-# DOM example
--cmd cd ../../
--cmd cd 02dom/code/
---next 
-javascript.hxml
--cmd echo "│ ├── dom/code"
+# 09flatfile
+-cmd haxe -cp 09flatfile/code/src -main Main -python 09flatfile/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 09flatfile/code"
 
+# 10sqlite
+-cmd haxe -cp 10sqlite/code/src -main Main -python 10sqlite/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 10sqlite/code"
 
-# vanillaJS example
--cmd cd ../../
--cmd cd 03vanillajs/code/
---next 
-javascript.hxml
--cmd echo "│ ├── vanillajs/code"
-
-
-# classes example
--cmd cd ../../
--cmd cd 04classes/code/
---next 
-javascript.hxml
--cmd echo "│ ├── classes/code"
-
-
-# externs example
--cmd cd ../../
--cmd cd 05externs/code/
---next 
-javascript.hxml
--cmd echo "│ ├── externs/code"
-
-
-# NASA example
--cmd cd ../../
--cmd cd 06nasa/code/
---next 
-javascript.hxml
--cmd echo "│ ├── nasa/code"
-
-
-# pixi.js example
--cmd cd ../../
--cmd cd 07pixi/code/
---next 
-javascript.hxml
--cmd echo "│ ├── pixi/code"
-
-
-
+# 11mysql
+-cmd haxe -cp 11mysql/code/src -main Main -python 11mysql/code/bin/example.py -dce full -debug
+-cmd echo "│ ├── 11mysql/code"
 
 
 -cmd echo "└── Finished Haxe build"

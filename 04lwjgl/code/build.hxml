@@ -1,0 +1,53 @@
+# #integrate files to classpath
+# -cp src
+
+# #this class wil be used as entry point for your app.
+# -main Main
+
+# #java target
+# -java bin/java
+
+# #Add debug information
+# -debug
+
+# # resources like templates
+# # -resource src/assets/LICENSE@licence
+
+# #dead code elimination : remove unused code
+# #"-dce no" : do not remove unused code
+# #"-dce std" : remove unused code in the std lib (default)
+# #"-dce full" : remove all unused code
+# -dce full
+
+# # Add extra targets
+# # --next
+
+# # Additional commandline actions can be done here
+# # run our application
+# -cmd cd bin/java
+# -cmd java -jar Main-Debug.jar
+#
+#
+#
+#
+# specify external jar files used ( may not need all these ), they are used by haxe compiler for the classes we import.
+-java-lib lwjgl/jar/lwjgl.jar
+
+# tell Haxe where our code is.
+-cp src
+# Define the main class
+-main Main
+# Define a new folder to create our executable code
+-java bin/java
+
+# after Haxe has compiled into Java lets run the code
+# --next
+
+# -cmd cd lwjgl_test/src/
+# -cmd cd ../
+# # copy the native code next to our jar code, notice for this test I have specified mac ones.
+# -cmd cp '../lwjgl-2.9.1/native/macosx/openal.dylib' 'openal.dylib'
+# -cmd cp '../lwjgl-2.9.1/native/macosx/libjinput-osx.jnilib' 'libjinput-osx.jnilib'
+# -cmd cp '../lwjgl-2.9.1/native/macosx/liblwjgl.jnilib' 'liblwjgl.jnilib'
+# # run our application
+# -cmd java -jar lwjgl_test.jar

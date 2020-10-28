@@ -1,0 +1,41 @@
+# #integrate files to classpath
+# -cp src
+
+# #this class wil be used as entry point for your app.
+# -main WindowFrame
+
+# #java target
+# -java bin/java
+
+# #Add debug information
+# -debug
+
+# # resources like templates
+# # -resource src/assets/LICENSE@licence
+
+# #dead code elimination : remove unused code
+# #"-dce no" : do not remove unused code
+# #"-dce std" : remove unused code in the std lib (default)
+# #"-dce full" : remove all unused code
+# -dce full
+
+# # Add extra targets
+# # --next
+
+# # Additional commandline actions can be done here
+# # run our application
+# -cmd cd bin/java
+# -cmd java -jar Main-Debug.jar
+# 
+
+
+-cp src
+-java bin/java
+-main TwoWindowsExample
+-D haxe3
+
+# after Haxe has compiled into Java lets run the code
+--next
+-cmd cd bin/java/
+# run our application
+-cmd java -jar TwoWindowsExample.jar

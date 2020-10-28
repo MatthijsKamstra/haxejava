@@ -1,18 +1,18 @@
-# Haxe and PHP
+# Haxe and Java
 
-There is not a lot of information about Haxe and PHP. I decided to do something about that.
+There is not a lot of information about Haxe and Java. I decided to do something about that.
 
-#### Visit [http://matthijskamstra.github.io/haxephp/](http://matthijskamstra.github.io/haxephp/)
+#### Visit [http://matthijskamstra.github.io/haxejava/](http://matthijskamstra.github.io/haxejava/)
 
 
 ## How to contribute?
 
-Read more about that [here](contribute.md).  
+Read more about that [here](contribute.md).
 But it boils down to: **JUST DO IT!**
 
-#### Visit [https://github.com/MatthijsKamstra/haxephp](https://github.com/MatthijsKamstra/haxephp) to change the "source" aka markdown files.
+#### Visit [https://github.com/MatthijsKamstra/haxejava](https://github.com/MatthijsKamstra/haxejava) to change the "source" aka markdown files.
 
-Found any "bug" or have a great idea? Please create a [new issue](https://github.com/MatthijsKamstra/haxephp/issues/new).
+Found any "bug" or have a great idea? Please create a [new issue](https://github.com/MatthijsKamstra/haxejava/issues/new).
 
 
 
@@ -27,8 +27,8 @@ Install gitbook
 npm install gitbook-cli -g
 ```
 
-I wanted to make the editing of these file as-easy-as-possible.  
-This gitbook plugin helps with that: [gitbook plugin edit link](https://www.npmjs.com/package/gitbook-plugin-edit-link).  
+I wanted to make the editing of these file as-easy-as-possible.
+This gitbook plugin helps with that: [gitbook plugin edit link](https://www.npmjs.com/package/gitbook-plugin-edit-link).
 And if all fails, I used [Disqus comments on your books](https://github.com/GitbookIO/plugin-disqus) to add comments at the bottom of each page.
 
 Activate the plugins with:
@@ -56,14 +56,14 @@ Primarily reason for this: I have never used it, it uses markdown as input files
 
 ### What is Markdown
 
-![Markdown logo](img/markdown-logo-200.png)  
-A familiar way to write documentation for developers.  
+![Markdown logo](img/markdown-logo-200.png)
+A familiar way to write documentation for developers.
 This should make it easier to **contribute**!
 
 **Markdown** is a plain text formatting syntax created by John Gruber, aiming to provide a easy-to-read and feasible markup. You can find the original Markdown syntax specification [here](http://daringfireball.net/projects/markdown/syntax).
 
 
-![MacDown logo](img/macdown-logo-200.png)  
+![MacDown logo](img/macdown-logo-200.png)
 **MacDown** is a simple-to-use editor for Markdown documents. It renders your Markdown contents real-time into HTML, and display them in a preview panel. You can download it [here](http://macdown.uranusjr.com/).
 
 
